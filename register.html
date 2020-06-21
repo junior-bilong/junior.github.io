@@ -13,9 +13,9 @@
                 <h1 class="logo" >Conference Website</h1>
                 <h3 class="tagline">August 24&ndash; 26th &ndash; chicago, IL</h3>
                 <nav>
-                    <ul class="voir">
+                    <ul class="why-attend voir">
                     
-                            <li>HOME</li>
+                            <li><a class="moi"  href="index.html">HOME</a></li>
                             <li><a class="moi"  href="speakers.html">SPEAKERS</a></li>
                             <li><a class="moi"  href="Schedules.html">SCHEDULE</a></li>
                             <li><a class="moi"  href="venue.html">VENUE</a></li>
@@ -26,25 +26,62 @@
                 </nav>
             </header>
             
-            <section class="end">
-                    <p>la date limite d'enregistrement est déja passé pour cette session. s'il vous plait veuillez revenir pour la prochaine session car nous avons atteints le nombre de place voulu et la liste des noms qui sont enregistré pour cette session est la suivante:</p>
-                <ol>
-                    <li class="nom">mr febe</li>
-                    <li class="nom">junior</li>
-                    <li class="nom">osita</li>
-                    <li class="nom">dorcas</li>
-                    <li class="nom">herman</li>
-                    <li class="nom">aboubacar</li>
+            <section class="row">
+                <div class="grid">
+                    <section class="col-2-3">
+                        <h2>purchase a Conference pass</h2>
+                        <h5>$99 per class</h5>
 
-            
-                </ol>
+                        <p>Purchase your style conference pass using the form to the right, Multiple passes may be purchased within the same order, so feel free to bring a friend or two along. Once your order is finished we&#8217;ll follow up and provide a receipt for your purchase. See you soon!</p>
+
+                        <h4>Why attend?</h4>
+                            
+                <ul>
+                    <li>over twenty world-class speackers</li>
+                    <li>one full day of workshops and two full day pf presentations</li>
+                    <li>hosted at the chicago theatre, a historical landmark</li>
+                    <li>August chicago is simply amazing </li>            
+                </ul>
+                    </section>
+                </div>
             </section>
-        </div>
+            <form class="col-1-3" action="#" method="post">
+              <fieldset class="register-group">
+                  <label>
+                      NAME
+                      <input type="text" name="name" placeholder="full name" required>
+                  </label>
+
+                  <label>
+                    EMAIL
+                    <input type="email" name="email" placeholder="email adress" required>
+                </label>
+
+                <label>
+                    Number of passes
+                    <section name="quantity" required>
+                        <option value="1" selected>1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                </label>
+
+                <label>
+                    comment
+                    <textarea name="comments"></textarea>
+                </label>
+                
+                    <input class="btn-default" type="submit" name="submit" value="purchase">
+                
+              </fieldset>
+        </form>
+            
             <footer class="primary-footer container">
                 <i class="far fa-kiss-wink-heart"></i>
                 <small>&copy; 2020 Conference Webside crée par Sonna Junior</small>
                 <i class="far fa-kiss-wink-heart"></i>
-                <nav class="nav">Home Speakers Schedule Venue Register</nav>
+                
                 
             </footer>
         </body>

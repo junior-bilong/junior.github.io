@@ -5,7 +5,7 @@ body{
 }
 .container, .grid{
     margin: 0 auto;
-    padding-left: 30ox;
+    padding-left: 30px;
     padding-right: 30px;
     width: 960px;
     color: white;
@@ -42,7 +42,7 @@ li{
 .moi{
     color: white;
 }
-li:hover{
+.hover:hover{
     color: red;
     cursor: pointer;
 }
@@ -100,7 +100,10 @@ p a{
     width: 33.33%;
     margin: 3px;
 }
-.col-1-3{
+.ccol-2-3{
+    width: 66.66%;
+}
+.col-1-3, .ccol-2-3{
     display: inline-block;
     vertical-align: top;
     color: black;
@@ -140,34 +143,35 @@ p a{
     text-align: right;
     padding: 50px;
 }
-.nav{
-    text-align: right;
-}
 .row{
     background: white;
-    width: 960px;
     padding: 66px 0 44px 0;
-    background-image: linear-gradient(to right top, #818c9b, #2c454e, #275856, #3b6950, #667642);
+    font-size: 15px;
+    background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
 }
-    
+.jun{
+    color: white;
+}
+.kiss{
+    color: white;
+}
    
-.row.alt, .row{
+.row-alt, .row{
     min-width: 960px;
+}
+.row-alt{
+    background: black;
+    background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+    padding: 66px 0 44px 0;
 }
 .lead{
     text-align: center;
 }
 .lead p{
-    font-size: 21px;
-    line-height: 33px;
+    font-size: 15px;
+    line-height: 30px;
 }
-.junior{
-    background-image: linear-gradient(to right top, #818c9b, #2c454e, #275856, #3b6950, #667642);
-}
-.nom{
-    display: list-item;
 
-}
 .bil{
     background:black ;
     color:white;
@@ -184,4 +188,98 @@ img{
     margin-bottom: 22px;
     max-width: 100%;
 }
-    
+.why-attend{
+    list-style: square;
+    margin: 0 0 22px 30px;
+}
+form{
+    margin-bottom: 22px;
+
+}
+input, select, textarea{
+    font: 300 1px/22px "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.register-group label{
+    color: white;
+    cursor: pointer;
+    font-weight: 400;
+}
+.register-group input, 
+.register-group select,
+.register-group textarea{
+    border: 1px solid white;
+    border-radius: 5px;
+    color: #888;
+    display: block;
+    margin: 5px 0 24px 0;
+    padding: 5px 7px;
+}
+.register-group input,
+.register-group textarea{
+    width: 95%;
+}
+.register-group input{
+    height: 34px;
+    width: 60px;
+}
+.register-group textarea{
+    height: 78px;
+}
+.btn-default{
+    border: 0;
+    background: white;
+    padding: 11px 30px;
+    font-size: 11px;
+}
+.btn-default:hover{
+    background: black;
+}
+table{
+    margin-bottom: 44px;
+    width: 100%;
+}
+table:last-child{
+    margin-bottom: 0;
+}
+th, td{
+    padding-bottom: 22px;
+    vertical-align: top;
+}
+th{
+    padding-right: 45px;
+    text-align: right;
+    width: 20%;
+}
+td{
+    width: 40%;
+}
+thead{
+    line-height: 44px;
+}
+thead th{
+    font-size: 24px;
+    color: white;
+}
+tbody td {
+    border-top: 1px solid black;
+    padding-top: 28px;
+}
+tbody td:first-of-type{
+    padding-left: 15px;
+}
+tbody td:last-of-type{
+    padding-left: 15px;
+}
+tbody td:only-of-type{
+    padding-left: 0;
+    padding-right: 0;
+}
+table a{
+    color: black;
+}
+table h4{
+    margin-bottom: 0;
+}
+.schedule-offset{
+    color:white;
+}
